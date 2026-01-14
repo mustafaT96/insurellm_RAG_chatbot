@@ -35,13 +35,13 @@ The system uses LLM-driven document chunking, vector search with ChromaDB, reran
 
 ## 🗂 Project Structure  
 insurellm_RAG_chatbot/
-├── app.py # Gradio web interface
-├── ingest.py # Knowledge base ingestion pipeline
-├── answer.py # RAG retrieval + answering logic
-├── knowledge-base/ # Markdown documents (input)
-├── preprocessed_db/ # ChromaDB vector store (generated)
-├── .gitignore
-└── README.md
+├── app.py # Gradio web interface  
+├── ingest.py # Knowledge base ingestion pipeline  
+├── answer.py # RAG retrieval + answering logic  
+├── knowledge-base/ # Markdown documents (input)  
+├── preprocessed_db/ # ChromaDB vector store (generated)  
+├── .gitignore  
+└── README.md  
 
 ---
 
