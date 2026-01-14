@@ -1,3 +1,40 @@
+## 🎯 Problem Statement
+
+Organisations often store critical information across internal documents such as
+policies, FAQs, product notes, and operational guides. While this information exists,
+it is often difficult for employees or users to quickly find accurate, up-to-date
+answers using traditional keyword search.
+
+This leads to:
+- Time wasted searching through documents
+- Inconsistent or incomplete answers
+- Increased reliance on subject-matter experts for routine questions
+
+Large Language Models (LLMs) can generate fluent answers, but **on their own they may
+hallucinate or provide information that is not grounded in company-approved sources**.
+
+### The Challenge
+
+How can we build a conversational assistant that:
+- Answers questions **only using trusted internal documents**
+- Retrieves the most relevant information accurately
+- Provides clear, context-aware answers
+- Remains transparent about where the information comes from
+
+### The Solution
+
+This project implements a **Retrieval-Augmented Generation (RAG) chatbot** that combines:
+
+- **Vector search** to retrieve relevant document chunks
+- **LLM-based query rewriting and reranking** to improve retrieval quality
+- **Context-grounded answer generation** to ensure responses are based strictly on the knowledge base
+- **A user-friendly Gradio interface** for interactive querying
+
+The result is a chatbot that delivers **accurate, explainable, and source-backed answers**
+about the organisation (Insurellm), while reducing hallucinations and improving information accessibility.  
+
+---
+
 ## 📁 Code Overview & Execution Flow
 
 This project consists of three main Python files that together implement a complete
